@@ -1,0 +1,41 @@
+name: wordandmemory
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: any
+  path_provider: any
+  intl: ^0.15.7
+  flutter_circular_chart: ^0.1.0
+  flip_card: ^0.3.0
+
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/logo.png"
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/logo.png
+    - images/circlelogo.png
+    - images/splash.png
+
+
